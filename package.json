@@ -1,0 +1,19 @@
+{
+  "name": "slidetree",
+  "version": "1.0.0",
+  "description": "Open source alternative to SlideShare",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "format": "prettier --write .",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck"
+  },
+  "keywords": [],
+  "author": "Subhajit Das",
+  "license": "ISC"
+}
