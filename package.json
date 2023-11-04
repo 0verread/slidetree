@@ -2,6 +2,8 @@
   "name": "slidetree",
   "version": "1.0.0",
   "description": "Open source alternative to SlideShare",
+  "license": "ISC",
+  "author": "Subhajit Das",
   "workspaces": [
     "apps/*",
     "packages/*"
@@ -14,6 +16,5 @@
     "typecheck": "turbo run typecheck"
   },
   "keywords": [],
-  "author": "Subhajit Das",
-  "license": "ISC"
+  "packageManager": "pnpm@8.10.2"
 }
