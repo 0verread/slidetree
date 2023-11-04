@@ -1,16 +1,18 @@
 import type { MetaFunction } from "@remix-run/node";
 
+import { Header } from "../components/Header";
+
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "slidetree" },
+    { name: "description", content: "welcome to slidetree" },
   ];
 };
 
 export default function Index() {
   return (
-    <div>
-      <h1 className="text-white">Welcome to Remix</h1>
-    </div>
+    <>
+      <Header />
+    </>
   );
 }
