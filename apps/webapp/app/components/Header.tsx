@@ -8,7 +8,7 @@ export const Header: React.FC = () => {
       <a href="/" className='flex items-center'> 
         <span className='self-center text-xl font-semibold whitespace-nowrap dark:text-white'>slidetree</span>
       </a>
-      <nav className="flex gap-2">
+      <nav className="flex gap-4">
       <a
         href='https://github.com/0verread/slidetree'
         target='_blank'
