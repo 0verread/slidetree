@@ -1,10 +1,9 @@
-import React from "react";
+import React, { FC } from "react";
 
-import { Header } from "~/components/Header";
 
-const Landing = () => {
+const Landing: FC = () => {
   return (
-    <section className="section flex items-center justify-center md:flex md:justify-center overflow-y-hidden">
+    <section className="px-2 sm:px-4 w-full z-20 top-0 left-0 flex items-center justify-center py-10 h-screen">
       <div className='bg-main text-center'>
         <div className='wrapper max-w-xl transform -translate-y-18 sm:-translate-y-2xfull'>
           <h1 className='text-white font-header font-bold text-5xl mb-6'>Open source alternative to Slideshare

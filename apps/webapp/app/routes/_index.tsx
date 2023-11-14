@@ -13,8 +13,10 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <>
+    <div className="mx-auto flex h-screen max-w-6xl flex-col">
       <Header />
       <Landing />
+    </div>
     </>
   );
 }
