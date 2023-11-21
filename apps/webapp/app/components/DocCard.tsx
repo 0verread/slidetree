@@ -24,11 +24,11 @@ export const DocCard: React.FC<DocCardProps> = (props: DocCardProps) => {
 
         <div className="p-2 space-y-1">
           <div className="flex items-start justify-between gap-4">
-            <h3 className="flex-1 text-base font-medium text-gray-500">
-              Here goes youe article title
+            <h3 className="flex-1 text-base font-medium text-gray-500 line-clamp-1">
+              Here goes youe article title  
             </h3>
           </div>
-          <p className="text-sm text-gray-500">by Jeet</p>
+          <p className="text-sm text-gray-500 line-clamp-1">by Jeet</p>
         </div>
       </a>
     </div>
