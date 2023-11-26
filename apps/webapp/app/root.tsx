@@ -23,7 +23,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="bg-gradient-to-l from-gray-700 via-gray-900 to-black">
+      <body className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-black via-zinc-900 to-black">
         <Outlet />
         <ScrollRestoration />
         <Scripts />
