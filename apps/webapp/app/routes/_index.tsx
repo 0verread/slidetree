@@ -3,6 +3,7 @@ import type { MetaFunction } from "@remix-run/node";
 import { Header } from "~/components/Header";
 import Footer from "~/components/Footer";
 import Landing from "~/pages/Landing";
+import Comingsoon from "~/pages/Comingsoon";
 
 export const meta: MetaFunction = () => {
   return [
@@ -15,9 +16,10 @@ export default function Index() {
   return (
     <>
     <div className="mx-auto flex h-screen max-w-6xl flex-col">
-      <Header />
+      {/* <Header />
       <Landing />
-      <Footer />
+      <Footer /> */}
+      <Comingsoon />
     </div>
     </>
   );
