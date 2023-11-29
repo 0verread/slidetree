@@ -16,10 +16,10 @@ export default function Index() {
   return (
     <>
     <div className="mx-auto flex h-screen max-w-6xl flex-col">
-      {/* <Header />
+      <Header />
       <Landing />
-      <Footer /> */}
-      <Comingsoon />
+      <Footer />
+      {/* <Comingsoon /> */}
     </div>
     </>
   );

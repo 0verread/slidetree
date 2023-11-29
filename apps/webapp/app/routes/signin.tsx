@@ -3,7 +3,7 @@ import React from "react";
 const SigninPage: React.FC = () => {
   return (
     <div className="flex justify-center items-center w-full h-screen">
-      <div className="z-10 w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <div className="w-full max-w-sm border-gray-200 rounded-lg shadow dark:border-gray-700">
         <div className="justify-center flex flex-col text-center items-cente px-4 py-6">
           <span className="text-white text-2xl font-semibold whitespace-nowrap dark:text-white">
             slidetree
